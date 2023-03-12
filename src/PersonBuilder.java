@@ -1,6 +1,6 @@
 import java.util.OptionalInt;
 
-public class PersonBuilder {
+public class PersonBuilder implements IPersonBuilder{
     private String firstname;
     private String surname;
     private OptionalInt age = OptionalInt.empty();
